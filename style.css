@@ -1,0 +1,54 @@
+/* 整体页面的样式 */
+body {
+    font-family: 'Arial';
+    background-color: #fff0f5; /* 淡粉色背景 */
+    color: #333;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* 大标题样式 */
+  h1 {
+    color: #ff69b4; /* 粉色字体 */
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* 段落样式 */
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  /* 按钮样式 */
+  button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #69ff99;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rotate {
+    animation: spin 1s ease-in-out;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  button:hover {
+    transform: scale(1.5); 
+    background-color: #ff85c1;
+  }
+  
